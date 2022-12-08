@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Roadbot2 Run
+Comment=ROS - Roadbot2
+Exec=bash -c "source /opt/ros/melodic/setup.bash;source ~/catkin_ws/devel/setup.bash;gnome-terminal -- roslaunch /usr/share/roadbot/config/rb.launch;rqt"
+Icon=/if/you/want/one/icon.png
+Terminal=false
+TerminalOptions=bash
+Type=Application
+Categories=ROS;
+StartupNotify=true
+
+

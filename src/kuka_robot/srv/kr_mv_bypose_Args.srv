@@ -1,0 +1,5 @@
+# POS [mm and degree]
+kr_pose_Type pose
+---
+# Response value
+int64 response

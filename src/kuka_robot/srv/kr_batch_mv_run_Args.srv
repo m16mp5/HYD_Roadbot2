@@ -1,0 +1,8 @@
+# batch move start block number [1-512]
+int64 start_block
+# batch move end block number [1-512]
+int64 end_block
+---
+# Response value
+int64 response
+

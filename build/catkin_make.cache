@@ -1,0 +1,2 @@
+aruco_ros/aruco:aruco_ros/aruco_msgs:aruco_ros/aruco_ros:cali:cone_sensor:fslidar_drive:kuka_robot:lantern_rack:lidar_tracker:power_system:roadbot_control:roadbot_hmi:sick_scan:system_io:vision_system
+-GEclipse CDT4 - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DCATKIN_DEVEL_PREFIX=/home/user/Desktop/SrcLink/devel -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/SrcLink/install

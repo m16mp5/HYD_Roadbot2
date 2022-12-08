@@ -1,0 +1,6 @@
+# Floating point number [x.xxxx]
+float64 number
+---
+# Response value
+int64 response
+

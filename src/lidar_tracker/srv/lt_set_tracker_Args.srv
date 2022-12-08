@@ -1,0 +1,10 @@
+# POS [mm and degree]
+kr_pose_Type pose
+# round [%]
+float64 round
+# batch move block number [1-512]
+int64 block
+---
+# Response value
+int64 response
+

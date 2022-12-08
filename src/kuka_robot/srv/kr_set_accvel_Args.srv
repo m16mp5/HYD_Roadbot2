@@ -1,0 +1,16 @@
+# Motion profile Acc [m/s2]
+float64 acc
+# Motion profile Acc Swivel [grad/s2]
+float64 acc_swivel
+# Motion profile Acc Rotational [grad/s2]
+float64 acc_rot
+# Motion profile Vel [m/s]
+float64 vel
+# Motion profile Vel Swivel [grad/s]
+float64 vel_swivel
+# Motion profile Vel Rotational [grad/s]
+float64 vel_rot
+---
+# Response value
+int64 response
+

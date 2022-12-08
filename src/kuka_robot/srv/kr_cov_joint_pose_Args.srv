@@ -1,0 +1,7 @@
+# AXIS [degree]
+kr_joint_Type joints
+---
+# Response value
+int64 response
+# POS [mm and degree]
+kr_pose_Type pose

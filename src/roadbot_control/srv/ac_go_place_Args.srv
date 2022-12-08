@@ -1,0 +1,18 @@
+# Number of cones to place [number]
+int64[] number_of_cones
+# Pattern of lanterns [none=0, interl=1]
+int64[] lantern_pattern
+# Cone spacing [in m]
+float64[] cone_spacing
+# Placement start position Y and end position Y [in m]
+float64[] start_position_y
+float64[] start_position_x
+float64[] end_position_y
+float64[] end_position_x
+
+# Placement mode [none=0, auto_whitemark=1]
+int64 mode
+---
+# Response value
+int64 response
+

@@ -1,0 +1,6 @@
+# Dummy [don't care]
+int64 dummy
+---
+# Response value [0 - completed]
+int64 response
+

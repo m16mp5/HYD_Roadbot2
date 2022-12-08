@@ -1,0 +1,6 @@
+# Dummy [0- resume, 1-stop-pause, 2-stop-cancel]
+int64 mode
+---
+# Response value
+int64 response
+

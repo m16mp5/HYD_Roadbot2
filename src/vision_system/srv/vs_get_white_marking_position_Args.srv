@@ -1,0 +1,17 @@
+# Timestamp [s]
+float64 timestamp
+
+# Rear Virtual Line Position [mm]
+float64 x
+float64 y
+
+---
+# Response value
+int64 response
+
+# Marking Y Position [mm]
+float64 y
+
+# Result code
+int64 result_code
+

@@ -1,0 +1,6 @@
+# Enable state [true/false]
+bool state
+---
+# Response value
+int64 response
+

@@ -1,0 +1,8 @@
+prefix=/home/user/Desktop/SrcLink/devel
+
+Name: vision_system
+Description: Description of vision_system
+Version: 0.0.0
+Cflags: -I/home/user/Desktop/SrcLink/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

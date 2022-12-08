@@ -1,0 +1,10 @@
+# Placement or collection at x,y [in m]
+float64 position_y
+float64 position_x
+
+# Loading bay location [0, 1, 2]
+int64 lb_location
+---
+# Response value
+int64 response
+

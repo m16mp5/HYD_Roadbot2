@@ -1,0 +1,15 @@
+
+<launch>
+<arg name="scan_topic" default="/scan"/>
+<arg name="host" default="192.168.0.100" />
+<arg name="port" default="8487" />
+  <node pkg="fslidar_drive"  type="fslidar_node" name="fslidar_node" output="screen">
+    <param name="host" value="$(arg host)" />
+    <param name="port" value="$(arg port)" />
+    <param name="inverted"            type="bool"   value="false"/>
+    <param name="frame_id"            type="string" value="/laser"/>
+    <param name="sample_rate"         type="int"    value="15000"/>
+    <param name="rotational_speed"    type="int"    value="10"/>
+    <param name="scan_topic"            type="string"   value="$(arg scan_topic)"/>
+  </node>
+</launch>

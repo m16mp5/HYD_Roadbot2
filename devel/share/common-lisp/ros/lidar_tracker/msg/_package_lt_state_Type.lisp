@@ -1,0 +1,18 @@
+(cl:in-package lidar_tracker-msg)
+(cl:export '(TIMESTAMP-VAL
+          TIMESTAMP
+          LIDARS_DIFFTIME-VAL
+          LIDARS_DIFFTIME
+          OBJECTS-VAL
+          OBJECTS
+          TRACKEDCONE_INDEXES-VAL
+          TRACKEDCONE_INDEXES
+          NONCONE_INDEXES-VAL
+          NONCONE_INDEXES
+          NUM_OF_FUSEDOBJECTS-VAL
+          NUM_OF_FUSEDOBJECTS
+          COLUMNSCAN_UP_DIST-VAL
+          COLUMNSCAN_UP_DIST
+          COLUMNSCAN_DOWN_DIST-VAL
+          COLUMNSCAN_DOWN_DIST
+))

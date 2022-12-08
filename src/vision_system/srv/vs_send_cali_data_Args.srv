@@ -1,0 +1,17 @@
+# calibration data
+int64 caliD_0
+int64 caliD_1
+int64 caliD_2
+int64 caliD_3
+int64 caliD_4
+int64 caliD_5
+int64 caliD_6
+int64 caliD_7
+bool Is_HD_check
+
+---
+# Response value
+int64 response
+
+# Result code
+int64 result_code

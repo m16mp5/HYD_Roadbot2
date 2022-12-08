@@ -1,0 +1,14 @@
+# Timestamp [s]
+float64 timestamp
+
+# Check Position [mm]
+float64 x
+float64 y
+
+---
+# Response value
+int64 response
+
+# Result code
+int64 result_code
+

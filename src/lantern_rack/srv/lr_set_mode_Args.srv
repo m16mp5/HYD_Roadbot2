@@ -1,0 +1,6 @@
+# Set lantern rack mode [0-storage 1-picking 2-filling]
+int64 mode
+---
+# Response value
+int64 response
+

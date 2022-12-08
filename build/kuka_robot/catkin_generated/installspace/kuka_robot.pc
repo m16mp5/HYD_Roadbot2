@@ -1,0 +1,8 @@
+prefix=/home/user/Desktop/SrcLink/install
+
+Name: kuka_robot
+Description: Description of kuka_robot
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

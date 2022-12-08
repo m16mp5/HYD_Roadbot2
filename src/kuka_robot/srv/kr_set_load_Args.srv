@@ -1,0 +1,12 @@
+# Payload [kg, mm, kg/m2]
+kr_payload_Type load
+# Payload at A1 [kg, mm, kg/m2]
+kr_payload_Type load_a1
+# Payload at A2 [kg, mm, kg/m2]
+kr_payload_Type load_a2
+# Payload at A3 [kg, mm, kg/m2]
+kr_payload_Type load_a3
+---
+# Response value
+int64 response
+

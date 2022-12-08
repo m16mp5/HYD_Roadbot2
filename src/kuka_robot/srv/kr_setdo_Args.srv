@@ -1,0 +1,10 @@
+# Digital Output Port Mask [1 - bits to change]
+int64 mask
+# Digital Output Port value [bits, 0/1]
+int64 value
+# Settle delay time in X.XXXs [sec]
+float64 settle_sec
+---
+# Response value
+int64 response
+

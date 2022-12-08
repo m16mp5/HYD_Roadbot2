@@ -1,0 +1,8 @@
+# Number of cones to collect [number]
+int64 number_of_cones
+int64 mode
+
+---
+# Response value
+int64 response
+

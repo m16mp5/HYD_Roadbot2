@@ -1,0 +1,8 @@
+# 16 output masks and values [bit field]
+int64 mask
+int64 value
+
+---
+# Response value
+int64 response
+

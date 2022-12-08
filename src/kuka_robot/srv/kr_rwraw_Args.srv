@@ -1,0 +1,8 @@
+# Variable name and value [string '!!str xxx']
+string name
+string value
+---
+# Response value
+int64 response
+# Variable value [string]
+string serialvalue

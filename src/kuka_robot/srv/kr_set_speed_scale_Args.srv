@@ -1,0 +1,6 @@
+# Speed Scale [0-100]
+int64 scale
+---
+# Response value
+int64 response
+
