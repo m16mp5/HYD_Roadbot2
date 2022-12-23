@@ -1,0 +1,2 @@
+set(roadbot_control_MESSAGE_FILES "/home/user/Desktop/SrcLink/src/roadbot_control/msg/ac_state_Type.msg")
+set(roadbot_control_SERVICE_FILES "/home/user/Desktop/SrcLink/src/roadbot_control/srv/ac_set_bool_Args.srv;/home/user/Desktop/SrcLink/src/roadbot_control/srv/ac_set_double_Args.srv;/home/user/Desktop/SrcLink/src/roadbot_control/srv/ac_go_place_Args.srv;/home/user/Desktop/SrcLink/src/roadbot_control/srv/ac_go_collect_Args.srv;/home/user/Desktop/SrcLink/src/roadbot_control/srv/ac_go_signstand_Args.srv")

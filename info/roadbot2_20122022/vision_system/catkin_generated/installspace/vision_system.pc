@@ -1,0 +1,8 @@
+prefix=/home/user/Desktop/SrcLink/install
+
+Name: vision_system
+Description: Description of vision_system
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

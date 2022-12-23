@@ -2260,55 +2260,58 @@ class MyMainWindow(QMainWindow):
         startTaperLength80km = [60, 69, 76, 84, 91, 108, 122, 138, 152, 168, 182]
         startWidth = float(self.conePlaceConvStartLaneWidthLineEdit.text())
         i = 0
-        if startWidth < 2.4:
+        if startWidth <= 2.4:           # modified by Marco
             i = 0
-        elif startWidth < 2.7:
+        elif startWidth <= 2.7:         # modified by Marco
             i = 1
-        elif startWidth < 3.0:
+        elif startWidth <= 3.0:         # modified by Marco
             i = 2
-        elif startWidth < 3.4:
+        elif startWidth <= 3.4:         # modified by Marco
             i = 3
-        elif startWidth < 3.7:
+        elif startWidth <= 3.7:         # modified by Marco
             i = 4
-        elif startWidth < 4.3:
+        elif startWidth <= 4.3:         # modified by Marco
             i = 5
-        elif startWidth < 4.9:
+        elif startWidth <= 4.9:         # modified by Marco
             i = 6
-        elif startWidth < 5.5:
+        elif startWidth <= 5.5:         # modified by Marco
             i = 7
-        elif startWidth < 6.1:
+        elif startWidth <= 6.1:         # modified by Marco
             i = 8
-        elif startWidth < 6.7:
+        elif startWidth <= 6.7:         # modified by Marco
             i = 9
-        elif startWidth < 7.3:
+        elif startWidth <= 7.3:         # modified by Marco
             i = 10
         else:
             i = 10
         if self.conePlaceRoadSpeedSelConvComboBox.currentIndex() == 0:
-            spacing0 = 2.0
-            spacing1 = 4.5
-            spacing2 = 1.0
+            spacing0 = 1.9932           # modified by Marco, Approach Taper
+            spacing1 = 4.5              # modified by Marco, Along Edge
+            spacing2 = 0.7071           # modified by Marco, End Taper
             length0 = startTaperLength50km[i]
         elif self.conePlaceRoadSpeedSelConvComboBox.currentIndex() == 1:
-            spacing0 = 2.0
-            spacing1 = 4.5
-            spacing2 = 1.0
+            spacing0 = 1.9970           # modified by Marco
+            spacing1 = 4.5              # modified by Marco
+            spacing2 = 0.7071           # modified by Marco
             length0 = startTaperLength70km[i]
         else:
-            spacing0 = 2.0
-            spacing1 = 9.0
-            spacing2 = 1.0
+            spacing0 = 1.9983           # modified by Marco
+            spacing1 = 9.0              # modified by Marco
+            spacing2 = 0.7071           # modified by Marco
             length0 = startTaperLength80km[i]
         length2 = float(self.conePlaceConvEndLaneWidthLineEdit.text())
         length1 = float(self.conePlaceConvLengthLineEdit.text())
         self.conePlaceConvTotalLengthLabel.setText(str(length0 + length1 + length2))
-        numOfCone = round(length0 / spacing0)
+        #numOfCone = round(length0 / spacing0)          # modified by Marco
+        numOfCone = math.ceil(length0 / spacing0)       # modified by Marco
         self.numOfConeToPlaceSpinBox_0.setValue(int(numOfCone))
         self.ConeSpacingSpinBox_0.setValue(spacing0)
-        numOfCone = round(length1 / spacing1)
+        #numOfCone = round(length1 / spacing1)          # modified by Marco
+        numOfCone = math.ceil(length1 / spacing1)       # modified by Marco
         self.numOfConeToPlaceSpinBox_1.setValue(int(numOfCone))
         self.ConeSpacingSpinBox_1.setValue(spacing1)
-        numOfCone = round(length2 / spacing2)
+        #numOfCone = round(length2 / spacing2)          # modified by Marco
+        numOfCone = math.ceil(length2 / spacing2)       # modified by Marco
         self.numOfConeToPlaceSpinBox_2.setValue(int(numOfCone))
         self.ConeSpacingSpinBox_2.setValue(spacing2)
 
